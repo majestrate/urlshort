@@ -1,0 +1,32 @@
+
+body {
+    background: #333;
+    color: #ddd;
+}
+
+footer {
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+}
+
+input {
+    border-radius: 10px;
+    color: #ddd;
+    background: 333;
+}
+
+
+#link-short , #urlshort_form {
+    top: 45%;
+    left: 45%;
+    position: absolute;
+}
+
+#link-short {
+    font-size: 100px;
+}
+
+#flashes {
+    color: red;
+}

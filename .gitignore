@@ -1,0 +1,8 @@
+*~
+\#*
+.\#*
+.pyc
+.so
+env
+__pycache__
+*.db

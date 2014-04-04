@@ -1,0 +1,12 @@
+
+<section id="flashes">
+  {% with messages = get_flashed_messages() %}
+  {% if messages %}
+  {% for msg in messages %}
+  <section>
+    {{msg}}
+  </section>
+  {% endfor %}
+  {% endif %}
+  {% endwith %}
+</section>
